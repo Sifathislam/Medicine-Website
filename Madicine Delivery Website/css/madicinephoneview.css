@@ -1,0 +1,75 @@
+/* css rest section */
+
+/* navbar section  */
+#navbar{
+    flex-direction: column;
+}
+#navbar::before {
+    height: 131%;
+}
+
+#navbar ul li a {
+    padding: 7px;   
+    border-radius: 5px;
+    margin: 3px;
+}
+#logo img {
+    margin: 5px 7px;
+    height: 86px;
+    margin-top: 3px;
+}
+#navbar ul li {
+    font-size: 0.88rem;
+}
+/* home section */
+#home{
+    padding: 3px 85px;
+    height: 720px;
+    margin-bottom: -16px
+   
+}
+
+#home::before {
+    height: 815px;
+    
+}
+#home h1{
+    font-size: 2.0rem;
+}
+/* services section */
+
+#services {
+    
+    flex-direction: column;
+}
+#services .box img {
+    height: 190px;
+}
+#services .box p {
+    font-size: 0.78rem;
+}
+/* clients section */
+#clients .client-iteam img {
+    height: 55px;
+    padding: 9px 13px;
+}
+#clients::before {
+    height: 152px;
+    
+}
+#clients{
+    flex-wrap: wrap;
+}
+/* blood-donation-section */
+#blood-donation-radiobuttons {
+    width: auto;
+    margin-left: auto;
+    
+}
+/* utility class section */
+.h-parimary{font-family: 'Luxurious Roman', cursive;
+    font-size: 1.5rem;}
+.h-secndary {
+        font-size: 1.4rem;
+    }
+/* footer section */

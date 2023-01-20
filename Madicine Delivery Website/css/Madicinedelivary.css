@@ -1,0 +1,247 @@
+/* Css Rest section */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Css varibles section */
+
+
+/* Navigation section  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+   position: absolute;
+   width:100%;
+   height: 100%;
+   background-color: black;
+   z-index: -1;
+   opacity: 0.33;
+}
+/* Navigation logo section */
+#logo{
+    /* margin: 3px 5px; */
+}
+#logo img{
+  
+    margin: -8px 7px;
+    height: 59px;
+    margin-top: 4px;
+    
+}
+
+
+/* Navigation ul section */
+#navbar ul{
+    display: flex;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.1rem;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 4px 35px;
+    color: cyan;
+    border-radius: 45px;
+    border: 1px solid;
+    margin: 0px 23px;
+}
+
+
+#navbar ul li a:hover{
+    background-color: whitesmoke;
+    color: black;
+    
+
+    
+}
+
+
+/* Home section */
+#home{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 3px 147px;
+    height: 490px;
+    margin-bottom: 42px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background:url(/home\ or\ bottom/home.jpg) no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 577px;
+    z-index: -1;
+    opacity: 0.83;
+
+}
+#home h1{  margin-bottom: 10px;
+    font-family: 'Be Vietnam Pro ital,wght@0,600', sans-serif;
+
+}
+#home p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.85rem;
+    color:black;
+}
+#home .homep{
+   padding-bottom: 3px;
+}
+
+/* Services section  */
+#services{
+    margin: 14px;
+    display: flex;
+
+}
+#services .box {
+    border: 2px solid cadetblue;
+    border-radius: 12px;
+    padding: 6px 14px;
+    margin: 2px 4px;
+    padding-bottom: 25px;
+}
+#services .box img{
+    height: 220px;
+    display: block;
+    margin: auto;
+} 
+#services .box p{
+     font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+
+}
+/* Clients section */
+#clients{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+#clients::before{
+    content: "";
+    position: absolute;
+   background: url(/clients/logobackgrhound.jpg)no-repeat center center/cover;
+    width:100%;
+    height: 110px;
+    z-index: -1;
+    opacity: 0.23;
+   
+    
+}
+#clients .client-iteam img{
+    height: 90px;
+    padding: 11px 42px;
+
+}
+
+
+/* /* #blood-donate-section */
+
+#blood-donate-section{
+    position: relative;
+
+}
+#blood-donate-section::before{
+    content: "";
+    position: absolute;
+  background: url(/home\ or\ bottom/blood-donation.gif)no-repeat center center/cover;
+    width:100%;
+    height: 473px;
+    z-index: -1;
+    opacity: 0.53;
+   
+}
+#blood-donate-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 53px;
+}
+#blood-donate-box input,
+#blood-donate-box textarea{
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+#blood-donate-box form{
+    width: 55%;
+
+}
+#blood-donate-box label{
+    font-size: 1rem;
+    font-family: 'PT Sans', sans-serif;
+}
+#blood-donation-radiobuttons{
+ width: 333px;
+ margin-left: 87px;
+    display: flex;
+}
+
+#blood-donate-section button{
+padding: 4px 18px;
+border-radius: 11px;
+font-family: 'PT Sans', sans-serif;
+border: 2px solid rgba(247, 86, 86, 0.864);
+
+}
+#blood-donate-section button a{
+    text-decoration: none;
+    color:rgb(194, 25, 25);
+}
+#blood-donate-section button:hover{
+    background-color:rgba(213, 0, 0, 0.166);
+    color:#a30000;
+}
+
+
+/* 
+.from-group{
+    padding: 3px;
+    text-align: center;
+    width: 223px;
+} */
+
+footer{
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 22px 33px;
+}
+
+
+
+/* Utility class */
+.h-parimary{font-family: 'Luxurious Roman', cursive;
+    font-size: 2.9rem;
+   
+   
+}
+.h-parimary-titles{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 2.9rem;
+}
+.center{
+    text-align: center;
+}
+.h-secndary{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 1.7rem;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+  
+
+}
